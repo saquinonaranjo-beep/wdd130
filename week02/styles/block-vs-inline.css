@@ -16,6 +16,7 @@ div {
 }
 
 span {
+    display: inline-block;
     color: navy;
     background-color: lightblue;
 }
