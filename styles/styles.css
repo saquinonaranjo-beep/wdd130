@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+aside {
+    width: 20em;
+    text-align: center;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -14,6 +25,8 @@ h1 {
 }
 
 img {
+    float: right;
+    margin: 1rem;
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -23,4 +36,13 @@ img {
 
 p {
     padding: 10px;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }
