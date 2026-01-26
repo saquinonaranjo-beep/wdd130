@@ -1,4 +1,4 @@
-/* Variables */
+/* CSS Variables */
 :root {
     --primary-color: #1b4965;
     --secondary-color: #62b6cb;
@@ -21,7 +21,7 @@ body {
     color: var(--accent1-color);
 }
 
-/* Center page content */
+/* Layout width */
 header,
 main,
 footer {
@@ -79,9 +79,14 @@ article {
 .hero article img {
     float: right;
     width: 125px;
+    margin-left: 12px;
 }
 
-/* Social media icons */
+/* Social media */
+.socialmedia a {
+    text-decoration: none;
+}
+
 .socialmedia img {
     width: 40px;
     height: auto;
