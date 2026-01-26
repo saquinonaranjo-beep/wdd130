@@ -81,7 +81,8 @@ article {
     width: 125px;
 }
 
-/* Footer social media */
-.socialmedia a {
-    text-decoration: none;
+/* Social media icons */
+.socialmedia img {
+    width: 40px;
+    height: auto;
 }
